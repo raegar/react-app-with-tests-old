@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 import Link from './Link.react';
+import Button from './Button.react';
 import './styles/style.css';
 
 class App extends Component {
@@ -23,6 +24,8 @@ class App extends Component {
           </a>
           <br />
           <Link page="http://www.ucp.ac.uk">University Centre Peterborough</Link>
+          <br />
+          <Button text="SUBSCRIBE" />
         </header>
       </div>
     );
