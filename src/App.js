@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Link from './Link.react';
+import './styles/style.css';
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+          <br />
+          <Link page="http://www.ucp.ac.uk">University Centre Peterborough</Link>
         </header>
       </div>
     );
