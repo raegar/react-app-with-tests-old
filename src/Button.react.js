@@ -3,8 +3,10 @@ import React from 'react';
 export default class Button extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { text: "" };
+
         this.handleClick = this.handleClick.bind(this);
+        
+        this.state = { text: "" };
     }
 
     handleClick() {
