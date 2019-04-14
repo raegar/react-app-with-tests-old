@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from './Link.react';
+import Link from '../Link.react';
 import renderer from 'react-test-renderer';
 
 test('Link changes the class when hovered', () => {
@@ -7,7 +7,7 @@ test('Link changes the class when hovered', () => {
         <Link page="http://www.ucp.ac.uk">University Centre Peterborough</Link>,
     );
     let tree = component.toJSON();
-    expect(tree).toMatchSanpshot();
+    expect(tree).toMatchSnapshot();
 
     // manually trigger the callback
     tree.props.onMouseEnter();
