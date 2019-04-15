@@ -27,7 +27,8 @@ class App extends Component {
           <Link page="http://www.ucp.ac.uk">University Centre Peterborough</Link>
           <br />
           <Button text="SUBSCRIBE" />
-          <p><Users /></p>
+          <br />
+          <Users />
         </header>
       </div>
     );
