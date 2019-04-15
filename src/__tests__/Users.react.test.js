@@ -18,5 +18,6 @@ describe("Users component", () => {
         const component = create(<Users />);
         const instance = component.getInstance();
         await instance.componentDidMount();
+        console.log(instance.state);
     });
 });
