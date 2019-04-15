@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './styles/App.css';
 import Link from './Link.react';
 import Button from './Button.react';
+import Users from './Users.react';
 import './styles/style.css';
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
           <Link page="http://www.ucp.ac.uk">University Centre Peterborough</Link>
           <br />
           <Button text="SUBSCRIBE" />
+          <p><Users /></p>
         </header>
       </div>
     );
