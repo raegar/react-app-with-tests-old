@@ -14,7 +14,7 @@ export default class Button extends React.Component {
     }
 
     stateUpdater() {
-        return { text: "PROCEED TO CHECKOUT" };
+        return { text: "CLiCKED!" };
     }
 
     render() {
